@@ -1,7 +1,9 @@
 # SafeDrop
+
 A convenient way to disburse whitehat funds
 
 ## Design Requirements
+
 1. Anyone can create a new SafeDrop contract from a blueprint-based Factory deployer
 2. The contract is initialized with the root of a sparse merkle tree mapping an address to a relative claim amount for that address, as well as the sum total of all the amounts in the tree
 3. An affected User can mint an NFT using a merkle proof, and the NFT contains the User's relative claim amount
@@ -10,6 +12,7 @@ A convenient way to disburse whitehat funds
 6. NFTs are transferrable using the ERC-721 standard
 
 ## TODO
+
 - [ ] Smart Contract Design
 - [ ] Unit/Fuzz Testing (in Titanoboa)
 - [ ] Integration Testing (in Ape)
